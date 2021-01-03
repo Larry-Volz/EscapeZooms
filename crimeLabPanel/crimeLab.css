@@ -1,0 +1,89 @@
+html body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Revalia', cursive;
+
+    font-size: 1rem;
+    background-color: rgba(0,0,0,1.0) !important;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: 'Revalia', cursive;
+    color: green;
+    font-size: 1.5rem;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 3.5rem;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 2.5rem;
+}
+
+
+h6 {
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.5rem;
+}
+
+.zoom {
+    font-size: 4rem;
+}
+.usp {
+    font-size: 1.2rem;
+
+}
+
+.card-text {
+    text-align: center;
+}
+
+#sci-fi-bg-btn {
+    width: 80%;
+    height: auto;
+}
+
+
+
+.hidden {
+    display: none !important;
+}
+
+#sketch-pad {
+    color: green;
+    font-family: 'Audiowide', cursive;
+}
+
+p, label, #suspect-num {
+    color: white;
+    font-family: 'Audiowide', cursive;
+}
+
+.head {
+    /* width: 440;
+    height: 480; */
+    position: relative !important;
+    top: 100 !important;
+    left: 100 !important;
+}
+
+.hair, .eyes, .ears, .nose, .chin, .lips {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+
+

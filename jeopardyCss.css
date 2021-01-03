@@ -1,0 +1,34 @@
+/* table { width: inherit !important; } */
+
+body {
+    background-color: black;
+    cursor: default;
+}
+#jeopardy-table {
+    width: 100%;
+}
+
+#jeopardy-table th {
+    color: white;
+    text-align: center;
+    font-size: .7rem;
+}
+
+#jeopardy-table td {
+    color: yellow;
+    font-size: .8rem;
+    text-align: center;
+    width: 16%;
+}
+
+.modal:nth-of-type(even) {
+    z-index: 1052 !important;
+}
+.modal-backdrop.show:nth-of-type(even) {
+    z-index: 1051 !important;
+}
+
+
+  td, .point-btn {
+    cursor: pointer;
+  }
