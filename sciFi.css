@@ -1,9 +1,23 @@
+
 html body {
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Revalia', cursive;
 
     font-size: 1rem;
     background-color: rgba(0,0,0,1.0) !important;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 3.5rem;
+    color: white;
+}
+
+h2 {
+    font-family: 'Revalia', cursive;
+    color: green;
+    font-size: 1.5rem;
 }
 
 
@@ -16,13 +30,8 @@ h4 {
 h5 {
     text-align: center;
     font-family: 'Audiowide', cursive;
+    color: white;
     font-size: 2.5rem;
-}
-
-h2 {
-    font-family: 'Revalia', cursive;
-    color: green;
-    font-size: 1.5rem;
 }
 
 h6 {
@@ -48,8 +57,26 @@ h6 {
     height: auto;
 }
 
+.lft-jus {
+    text-align: left;
+}
 
+.p-smaller {
+    font-size: small;
+}
 
 .hidden {
     display: none !important;
+}
+
+.title {
+    cursor: pointer;
+}
+
+.title:hover {
+    color: green;
+}
+
+#badge {
+    opacity: 0.2;
 }
