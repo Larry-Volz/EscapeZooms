@@ -85,5 +85,10 @@ p, label, #suspect-num {
     left: 0 !important;
 }
 
+.mm-title {
+    background-color: black !important;
+}
 
-
+.blood-red {
+    background-color: #8a0303;
+}

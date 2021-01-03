@@ -16,7 +16,7 @@ h1 {
 
 h2 {
     font-family: 'Revalia', cursive;
-    color: green;
+    /* color: green; */
     font-size: 1.5rem;
 }
 
@@ -80,3 +80,12 @@ h6 {
 #badge {
     opacity: 0.2;
 }
+
+.nav-custom-color {
+    background-color: #032440;
+}
+
+.blk-title {
+    background-color: black !important;
+}
+
