@@ -15,18 +15,18 @@ const mastermind = `
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
 <li class="nav-item">
-<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Sketch Artist</a>
+<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-pencil-alt"></i> Sketch Artist</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">DNA</a>
+<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-dna"></i> DNA</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Fingerprinting</a>
+<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="fas fa-fingerprint"></i> Fingerprinting</a>
 </li>
 </ul>
 <div class="tab-content" id="myTabContent">
 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-<h5 class="card-title text-success mb-0 pb-0">A.I. Sketch Artist</h5>
+<h5 class="card-title text-success mb-0 pb-0"><i class="fas fa-pencil-alt"></i> A.I. Sketch Artist</h5>
 <div class="card bg-dark mb-0 p-0">
     <!--  HEADS -->
     <img class="card-img-top mb-0 head" id= "head0" src="crimeLabPanel/PhotoFacePieces/Head-0.png" alt="Sketch artist app">
@@ -105,7 +105,7 @@ const mastermind = `
   </div>
 </div>
 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-<h5 class="card-title text-success mb-0 pb-0">DNA Laboratory</h5>
+<h5 class="card-title text-success mb-0 pb-0"><i class="fas fa-dna"></i> DNA Laboratory</h5>
 <div class="card bg-dark mb-0 p-0">
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non, ab ut voluptatum dolor illo dolores! Mollitia doloribus vero quia quidem atque exercitationem nemo vitae ex adipisci cupiditate, minima quo.
@@ -114,7 +114,7 @@ const mastermind = `
   </div>
 </div>
 <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-<h5 class="card-title text-success mb-0 pb-0">Fingerprint Records</h5>
+<h5 class="card-title text-success mb-0 pb-0"><i class="fas fa-fingerprint"></i> Fingerprinting</h5>
 <div class="card bg-dark mb-0 p-0">
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non, ab ut voluptatum dolor illo dolores! Mollitia doloribus vero quia quidem atque exercitationem nemo vitae ex adipisci cupiditate, minima quo.
