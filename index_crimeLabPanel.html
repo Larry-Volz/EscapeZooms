@@ -28,8 +28,11 @@ href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 <!-- ------------------------------ TABS ---------------------------------------- -->
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" id="sketch-tab" data-toggle="tab" href="#sketch" role="tab" aria-controls="sketch" aria-selected="true"><i class="fas fa-pencil-alt"></i> Sketch Artist</a>
+  <li class="nav-item">
+    <a class="nav-link active" id="case-file-tab" data-toggle="tab" href="#case-file" role="tab" aria-controls="case-file" aria-selected="false"><i class="far fa-folder"></i> Case File</a>
+  </li>  
+  <li class="nav-item">
+      <a class="nav-link" id="sketch-tab" data-toggle="tab" href="#sketch" role="tab" aria-controls="sketch" aria-selected="true"><i class="fas fa-pencil-alt"></i> Sketch Artist</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" id="dna-tab" data-toggle="tab" href="#dna" role="tab" aria-controls="dna" aria-selected="false"><i class="fas fa-dna"></i> DNA</a>
@@ -55,9 +58,48 @@ href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <li class="nav-item">
       <a class="nav-link" id="inventory-tab" data-toggle="tab" href="#inventory" role="tab" aria-controls="inventory" aria-selected="false"><i class="fas fa-suitcase"></i> inventory</a>
     </li>
+    
   </ul>
   <div class="tab-content" id="myTabContent">
-    <div class="tab-pane fade show active" id="sketch" role="tabpanel" aria-labelledby="sketch-tab">
+    <div class="tab-pane fade show active" id="case-file" role="tabpanel" aria-labelledby="case-file-tab">
+      <h5 class="card-title text-success mb-0 pb-0"><i class="far fa-folder-open"></i> Case File</h5>
+      <div class="card bg-dark mb-0 p-0">
+    
+        <div class="alert alert-primary" role="alert" id="case-basics-alert">
+          Case Basics
+        </div>
+          <div class="row file-content" id = "file-basics" style="display: none;">
+            <div class="col ml-2">
+              <p>Time of day: <span id="case-basic-tod">...to be assigned...</span></p>
+              <p>Exact or approximate location: <span id="case-basic-loc">...to be assigned...</span></p>
+              <p>Offence or occurrence: <span id="case-basic-crime"></span>...to be assigned...</p>
+              <p>Names and addresses of offenders, victims or witnesses</p>
+            </div>
+            <div class="starting-poi" id="starting-poi">...to be assigned...</div>
+          </div>
+        <div class="alert alert-success" role="alert" id="poi-alert">
+          Persons of Interest
+        </div>
+          <div class="row file-content" id="poi-details" style="display: none;">
+            <div class="col">
+              <table class = "ml-2" id="poi-table">
+                <tr>
+                  <th>Name</th>
+                  <th>id#</th>
+                  <th>Notes</th>
+                </tr>
+                <tr>
+                  <td>...to be assigned...</td>
+                  <td>...to be assigned...</td>
+                  <td>...to be assigned...</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          
+        </div>
+    </div>
+    <div class="tab-pane fade " id="sketch" role="tabpanel" aria-labelledby="sketch-tab">
     <h5 class="card-title text-success mb-0 pb-0"><i class="fas fa-pencil-alt"></i> A.I. Sketch Artist</h5>
         <div class="card bg-dark mb-0 p-0">
             <!--  HEADS -->
@@ -140,7 +182,7 @@ href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
         <h5 class="card-title text-success mb-0 pb-0"><i class="fas fa-dna"></i> DNA Laboratory</h5>
         <div class="card bg-dark mb-0 p-0">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non, ab ut voluptatum dolor illo dolores! Mollitia doloribus vero quia quidem atque exercitationem nemo vitae ex adipisci cupiditate, minima quo.
+                You have no DNA evidence collected to test yet.
             </p>
             
           </div>
@@ -149,7 +191,7 @@ href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
         <h5 class="card-title text-success mb-0 pb-0"><i class="fas fa-fingerprint"></i> Fingerprinting</h5>
         <div class="card bg-dark mb-0 p-0">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non, ab ut voluptatum dolor illo dolores! Mollitia doloribus vero quia quidem atque exercitationem nemo vitae ex adipisci cupiditate, minima quo.
+                You have not yet collected any fingerprints to analyze.
 
             </p>
             
@@ -159,7 +201,7 @@ href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
       <h5 class="card-title text-success mb-0 pb-0"><i class="far fa-eye"></i> Witness statements</h5>
       <div class="card bg-dark mb-0 p-0">
           <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non, ab ut voluptatum dolor illo dolores! Mollitia doloribus vero quia quidem atque exercitationem nemo vitae ex adipisci cupiditate, minima quo.
+              ... To Be Loaded on Game Start ...
 
           </p>
           
@@ -169,8 +211,7 @@ href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <h5 class="card-title text-success mb-0 pb-0"><i class="fas fa-bullseye"></i> Ballistics</h5>
     <div class="card bg-dark mb-0 p-0">
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non, ab ut voluptatum dolor illo dolores! Mollitia doloribus vero quia quidem atque exercitationem nemo vitae ex adipisci cupiditate, minima quo.
-
+            You have not yet collected any weapons or spent casing to analyze.  
         </p>
         
       </div>
@@ -178,10 +219,12 @@ href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 <div class="tab-pane fade" id="plates" role="tabpanel" aria-labelledby="plates-tab">
   <h5 class="card-title text-success mb-0 pb-0"><i class="fas fa-car"></i> Run Plates</h5>
   <div class="card bg-dark mb-0 p-0">
-      <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non, ab ut voluptatum dolor illo dolores! Mollitia doloribus vero quia quidem atque exercitationem nemo vitae ex adipisci cupiditate, minima quo.
+      <form id="plates-form">
+          <label for="plates-form-input">Plate number to run (full or partial): </label>
+          <input type="text" name ="plates-form-input" id="plates-form-input" placeholder="">
+          <input type="submit" id="plates-submit-btn" class ="btn btn-primary ml-3">
 
-      </p>
+      </form>
       
     </div>
 </div>
@@ -189,7 +232,14 @@ href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   <h5 class="card-title text-success mb-0 pb-0"><i class="far fa-id-badge"></i> Criminal records</h5>
   <div class="card bg-dark mb-0 p-0">
       <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non, ab ut voluptatum dolor illo dolores! Mollitia doloribus vero quia quidem atque exercitationem nemo vitae ex adipisci cupiditate, minima quo.
+        <form id = "criminal-records-form">
+          <label for="cr-fname">First name </label>
+          <input type="text" name ="cr-fname" id="cr-fname" placeholder="">
+          <label for="cr-lname">Last name </label>
+          <input type="text" name ="cr-lname" id="cr-lname" placeholder="">
+          <input type="submit" id="cr-submit-btn" class ="btn btn-primary ml-3">
+
+      </form>
 
       </p>
       
@@ -199,7 +249,7 @@ href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <h5 class="card-title text-success mb-0 pb-0"><i class="fas fa-shoe-prints"></i> Tracks</h5>
     <div class="card bg-dark mb-0 p-0">
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non, ab ut voluptatum dolor illo dolores! Mollitia doloribus vero quia quidem atque exercitationem nemo vitae ex adipisci cupiditate, minima quo.
+            You have not found any tracks yet.
 
         </p>
         
@@ -209,12 +259,16 @@ href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <h5 class="card-title text-success mb-0 pb-0"><i class="fas fa-suitcase"></i> Inventory</h5>
     <div class="card bg-dark mb-0 p-0">
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non, ab ut voluptatum dolor illo dolores! Mollitia doloribus vero quia quidem atque exercitationem nemo vitae ex adipisci cupiditate, minima quo.
+            Your inventory is empty.
 
         </p>
         
       </div>
 </div>
+
+
+<!--  -->
+
   </div>
 
 <!-- ------------------------- END TABS --------------------------------------- -->

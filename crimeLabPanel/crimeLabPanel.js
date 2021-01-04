@@ -134,6 +134,45 @@ const mastermind = `
 `
 $("#zoom-game-area").html(mastermind);
 
+//---------------------------- CASE FILE ----------------------------------------
+
+$("#case-basics-alert").on("click",(e)=>{
+    
+    if($('#file-basics').css('display') == 'none'){
+        $(".file-content").slideUp();
+        $("#file-basics").slideDown();
+        // cbShowHide = 0;
+    } else {
+        $(".file-content").slideUp();
+        $("#file-basics").slideUp()
+        // cbShowHide = 1;
+    }
+})
+
+$("#poi-alert").on("click",(e)=>{
+    
+    if($('#poi-details').css('display') == 'none'){
+        $(".file-content").slideUp();
+        $("#poi-details").slideDown();
+        // cbShowHide = 0;
+    } else {
+        $(".file-content").slideUp();
+        $("#poi-details").slideUp()
+        // cbShowHide = 1;
+    }
+})
+
+//----------------------------------- RUN PLATES -----------------------------------
+
+$("#plates-form").on("click",(e)=>{
+    e.preventDefault();
+})
+
+//-------------------------------RUN CRIMINAL RECORDS -------------------------------
+
+$("#criminal-records-form").on("click",(e)=>{
+    e.preventDefault();
+})
 
 //---------------------------- SKETCH ARTIST ----------------------------------------
 $sketchPad = $("#sketch-pad");

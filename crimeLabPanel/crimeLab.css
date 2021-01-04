@@ -46,6 +46,11 @@ h6 {
 
 }
 
+.card-title {
+    margin-bottom: 0.5rem !important;
+    margin-top: 0.5rem !important;
+}
+
 .card-text {
     text-align: center;
 }
@@ -66,7 +71,7 @@ h6 {
     font-family: 'Audiowide', cursive;
 }
 
-p, label, #suspect-num {
+p, label, #suspect-num, table {
     color: white;
     font-family: 'Audiowide', cursive;
 }
@@ -91,4 +96,8 @@ p, label, #suspect-num {
 
 .blood-red {
     background-color: #8a0303;
+}
+
+.alert:hover {
+    cursor: pointer;
 }
