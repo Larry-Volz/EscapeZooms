@@ -60,7 +60,9 @@ h6 {
     height: auto;
 }
 
-
+img {
+    margin-bottom: 0;
+}
 
 .hidden {
     display: none !important;
