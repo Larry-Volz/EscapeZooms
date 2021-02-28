@@ -94,6 +94,7 @@ const mastermind = `
         <!--  HEADS -->
         <img class="card-img-top mb-0 head" id= "head0" src="crimeLabPanel/PhotoFacePieces/Head-0.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 head hidden" id= "head1" src="crimeLabPanel/PhotoFacePieces/Head-1.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 head hidden" id= "head2" src="crimeLabPanel/PhotoFacePieces/Head-2.png" alt="Sketch artist app">
 
         <!-- WIGS -->
         <img class="card-img-top mb-0 hair       " id= "hair0" src="crimeLabPanel/PhotoFacePieces/Hair-0.png" alt="Sketch artist app">
@@ -101,6 +102,7 @@ const mastermind = `
         <img class="card-img-top mb-0 hair hidden" id= "hair2" src="crimeLabPanel/PhotoFacePieces/Hair-2.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 hair hidden" id= "hair3" src="crimeLabPanel/PhotoFacePieces/Hair-3.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 hair hidden" id= "hair4" src="crimeLabPanel/PhotoFacePieces/Hair-4.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 hair hidden" id= "hair5" src="crimeLabPanel/PhotoFacePieces/Hair-5.png" alt="Sketch artist app">
 
         <!-- EYES -->
         <img class="card-img-top mb-0 eyes       " id= "eyes0" src="crimeLabPanel/PhotoFacePieces/Eyes-0.png" alt="Sketch artist app">
@@ -108,6 +110,7 @@ const mastermind = `
         <img class="card-img-top mb-0 eyes hidden" id= "eyes2" src="crimeLabPanel/PhotoFacePieces/Eyes-2.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 eyes hidden" id= "eyes3" src="crimeLabPanel/PhotoFacePieces/Eyes-3.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 eyes hidden" id= "eyes4" src="crimeLabPanel/PhotoFacePieces/Eyes-4.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 eyes hidden" id= "eyes5" src="crimeLabPanel/PhotoFacePieces/Eyes-5.png" alt="Sketch artist app">
         
         
         <!-- NOSE -->
@@ -116,15 +119,18 @@ const mastermind = `
         <img class="card-img-top mb-0 nose hidden" id= "nose2" src="crimeLabPanel/PhotoFacePieces/Nose-2.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 nose hidden" id= "nose3" src="crimeLabPanel/PhotoFacePieces/Nose-3.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 nose hidden" id= "nose4" src="crimeLabPanel/PhotoFacePieces/Nose-4.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 nose hidden" id= "nose5" src="crimeLabPanel/PhotoFacePieces/Nose-5.png" alt="Sketch artist app">
 
         <!-- LIPS -->
         <img class="card-img-top mb-0 lips       " id= "lips0" src="crimeLabPanel/PhotoFacePieces/Lips-0.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 lips hidden" id= "lips1" src="crimeLabPanel/PhotoFacePieces/Lips-1.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 lips hidden" id= "lips2" src="crimeLabPanel/PhotoFacePieces/Lips-2.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 lips hidden" id= "lips3" src="crimeLabPanel/PhotoFacePieces/Lips-3.png" alt="Sketch artist app">
 
         <!-- EARS -->
         <img class="card-img-top mb-0 ears" id= "ears0" src="crimeLabPanel/PhotoFacePieces/Ears-0.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 ears hidden" id= "ears1" src="crimeLabPanel/PhotoFacePieces/Ears-1.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 ears hidden" id= "ears2" src="crimeLabPanel/PhotoFacePieces/Ears-2.png" alt="Sketch artist app">
 
         <!-- TEXT -->
         <div class="card-body jusify-content-center mb-0">
@@ -133,32 +139,32 @@ const mastermind = `
           <div class="row mt-0">
             <div class="col-sm-4 mt-0">
                 <label for="head-slider" class="form-label">Head shape</label>
-                <input type="range" class="form-range" id="head-slider" name="head-slider" min="0" max="1" value = "0"><br>
+                <input type="range" class="form-range" id="head-slider" name="head-slider" min="0" max="2" value = "0"><br>
             </div>
             <div class="col-sm-4 mt-0">
                 <label for="hair-slider" class="form-label">Hair style</label>
-                <input type="range" class="form-range" id="hair-slider" name="hair-slider" min="0" max="4" value = "0"><br>
+                <input type="range" class="form-range" id="hair-slider" name="hair-slider" min="0" max="6" value = "0"><br>
             </div>    
 
           </div>
           <div class="row mt-0">
             <div class="col-sm-4 mt-0">
                 <label for="eyes-slider" class="form-label">Eyes shape</label>
-                <input type="range" class="form-range" id="eyes-slider" name="eyes-slider" min="0" max="4" value = "0"><br>
+                <input type="range" class="form-range" id="eyes-slider" name="eyes-slider" min="0" max="5" value = "0"><br>
             </div>
             <div class="col-sm-4 mt-0">
                 <label for="nose-slider" class="form-label">Nose shape</label>
-                <input type="range" class="form-range" id="nose-slider" name="nose-slider" min="0" max="4" value = "0"><br>
+                <input type="range" class="form-range" id="nose-slider" name="nose-slider" min="0" max="5" value = "0"><br>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-4">
                 <label for="ears-slider" class="form-label">Ears shape</label>
-            <input type="range" class="form-range" id="ears-slider" name="ears-slider" min="0" max="1" value = "0"><br>
+            <input type="range" class="form-range" id="ears-slider" name="ears-slider" min="0" max="2" value = "0"><br>
             </div>
             <div class="col-sm-4">
                 <label for="lips-slider" class="form-label">Lips shape</label>
-            <input type="range" class="form-range" id="lips-slider" name="lips-slider" min="0" max="2" value = "0"><br>
+            <input type="range" class="form-range" id="lips-slider" name="lips-slider" min="0" max="3" value = "0"><br>
             </div>
 
           </div>
@@ -310,8 +316,8 @@ $("#criminal-records-form").on("click",(e)=>{
 //---------------------------- SKETCH ARTIST ----------------------------------------
 $sketchPad = $("#sketch-pad");
 
-const numberOfHeads = 2;
-const numberOfWigs = 5; //one extra to take into account bald as option 5
+const numberOfHeads = 3;
+const numberOfWigs = 6; //one extra to take into account bald as option 5
 const numberOfEyes = 2;
 const numberOfEars = 1;
 const numberOfNoses = 4;
