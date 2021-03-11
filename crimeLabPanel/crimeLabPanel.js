@@ -103,6 +103,10 @@ const mastermind = `
         <img class="card-img-top mb-0 head hidden" id= "head8" src="crimeLabPanel/PhotoFacePieces/Head-8.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 head hidden" id= "head9" src="crimeLabPanel/PhotoFacePieces/Head-9.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 head hidden" id= "head10" src="crimeLabPanel/PhotoFacePieces/Head-10.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 head hidden" id= "head11" src="crimeLabPanel/PhotoFacePieces/Head-11.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 head hidden" id= "head12" src="crimeLabPanel/PhotoFacePieces/Head-12.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 head hidden" id= "head13" src="crimeLabPanel/PhotoFacePieces/Head-13.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 head hidden" id= "head14" src="crimeLabPanel/PhotoFacePieces/Head-14.png" alt="Sketch artist app">
 
 
         <!-- EARS -->
@@ -117,6 +121,10 @@ const mastermind = `
         <img class="card-img-top mb-0 ears hidden" id= "ears8" src="crimeLabPanel/PhotoFacePieces/Ears-8.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 ears hidden" id= "ears9" src="crimeLabPanel/PhotoFacePieces/Ears-9.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 ears hidden" id= "ears10" src="crimeLabPanel/PhotoFacePieces/Ears-10.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 ears hidden" id= "ears11" src="crimeLabPanel/PhotoFacePieces/Ears-11.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 ears hidden" id= "ears12" src="crimeLabPanel/PhotoFacePieces/Ears-12.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 ears hidden" id= "ears13" src="crimeLabPanel/PhotoFacePieces/Ears-13.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 ears hidden" id= "ears14" src="crimeLabPanel/PhotoFacePieces/Ears-14.png" alt="Sketch artist app">
 
 
         <!-- WIGS -->
@@ -134,6 +142,7 @@ const mastermind = `
         <img class="card-img-top mb-0 hair hidden" id= "hair11" src="crimeLabPanel/PhotoFacePieces/Hair-11.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 hair hidden" id= "hair12" src="crimeLabPanel/PhotoFacePieces/Hair-12.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 hair hidden" id= "hair13" src="crimeLabPanel/PhotoFacePieces/Hair-13.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 hair hidden" id= "hair14" src="crimeLabPanel/PhotoFacePieces/Hair-14.png" alt="Sketch artist app">
 
         <!-- EYES -->
         <img class="card-img-top mb-0 eyes       " id= "eyes0" src="crimeLabPanel/PhotoFacePieces/Eyes-0.png" alt="Sketch artist app">
@@ -150,6 +159,7 @@ const mastermind = `
         <img class="card-img-top mb-0 eyes hidden" id= "eyes11" src="crimeLabPanel/PhotoFacePieces/Eyes-11.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 eyes hidden" id= "eyes12" src="crimeLabPanel/PhotoFacePieces/Eyes-12.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 eyes hidden" id= "eyes13" src="crimeLabPanel/PhotoFacePieces/Eyes-13.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 eyes hidden" id= "eyes14" src="crimeLabPanel/PhotoFacePieces/Eyes-14.png" alt="Sketch artist app">
         
         
         <!-- NOSE -->
@@ -166,6 +176,8 @@ const mastermind = `
         <img class="card-img-top mb-0 nose hidden" id= "nose10" src="crimeLabPanel/PhotoFacePieces/Nose-10.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 nose hidden" id= "nose11" src="crimeLabPanel/PhotoFacePieces/Nose-11.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 nose hidden" id= "nose12" src="crimeLabPanel/PhotoFacePieces/Nose-12.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 nose hidden" id= "nose13" src="crimeLabPanel/PhotoFacePieces/Nose-13.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 nose hidden" id= "nose14" src="crimeLabPanel/PhotoFacePieces/Nose-14.png" alt="Sketch artist app">
 
         <!-- LIPS -->
         <img class="card-img-top mb-0 lips       " id= "lips0" src="crimeLabPanel/PhotoFacePieces/Lips-0.png" alt="Sketch artist app">
@@ -180,6 +192,9 @@ const mastermind = `
         <img class="card-img-top mb-0 lips hidden" id= "lips9" src="crimeLabPanel/PhotoFacePieces/Lips-9.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 lips hidden" id= "lips10" src="crimeLabPanel/PhotoFacePieces/Lips-10.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 lips hidden" id= "lips11" src="crimeLabPanel/PhotoFacePieces/Lips-11.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 lips hidden" id= "lips12" src="crimeLabPanel/PhotoFacePieces/Lips-12.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 lips hidden" id= "lips13" src="crimeLabPanel/PhotoFacePieces/Lips-13.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 lips hidden" id= "lips14" src="crimeLabPanel/PhotoFacePieces/Lips-14.png" alt="Sketch artist app">
 
         
 
@@ -191,6 +206,11 @@ const mastermind = `
         <img class="card-img-top mb-0 FacialHair hidden" id= "FacialHair4" src="crimeLabPanel/PhotoFacePieces/FacialHair-4.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 FacialHair hidden" id= "FacialHair5" src="crimeLabPanel/PhotoFacePieces/FacialHair-5.png" alt="Sketch artist app">
         <img class="card-img-top mb-0 FacialHair hidden" id= "FacialHair6" src="crimeLabPanel/PhotoFacePieces/FacialHair-6.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 FacialHair hidden" id= "FacialHair7" src="crimeLabPanel/PhotoFacePieces/FacialHair-7.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 FacialHair hidden" id= "FacialHair8" src="crimeLabPanel/PhotoFacePieces/FacialHair-8.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 FacialHair hidden" id= "FacialHair9" src="crimeLabPanel/PhotoFacePieces/FacialHair-9.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 FacialHair hidden" id= "FacialHair10" src="crimeLabPanel/PhotoFacePieces/FacialHair-10.png" alt="Sketch artist app">
+        <img class="card-img-top mb-0 FacialHair hidden" id= "FacialHair11" src="crimeLabPanel/PhotoFacePieces/FacialHair-11.png" alt="Sketch artist app">
 
         <!-- TEXT -->
         <div class="card-body jusify-content-center mb-0">
@@ -199,37 +219,37 @@ const mastermind = `
           <div class="row mt-0">
             <div class="col-sm-4 mt-0">
                 <label for="head-slider" class="form-label">Head shape</label>
-                <input type="range" class="form-range" id="head-slider" name="head-slider" min="0" max="8" value = "0"><br>
+                <input type="range" class="form-range" id="head-slider" name="head-slider" min="0" max="14" value = "0"><br>
             </div>
             <div class="col-sm-4 mt-0">
                 <label for="hair-slider" class="form-label">Hair style</label>
-                <input type="range" class="form-range" id="hair-slider" name="hair-slider" min="0" max="8" value = "0"><br>
+                <input type="range" class="form-range" id="hair-slider" name="hair-slider" min="0" max="14" value = "0"><br>
             </div>    
 
           </div>
           <div class="row mt-0">
             <div class="col-sm-4 mt-0">
                 <label for="eyes-slider" class="form-label">Eyes shape</label>
-                <input type="range" class="form-range" id="eyes-slider" name="eyes-slider" min="0" max="8" value = "0"><br>
+                <input type="range" class="form-range" id="eyes-slider" name="eyes-slider" min="0" max="14" value = "0"><br>
             </div>
             <div class="col-sm-4 mt-0">
                 <label for="nose-slider" class="form-label">Nose shape</label>
-                <input type="range" class="form-range" id="nose-slider" name="nose-slider" min="0" max="8" value = "0"><br>
+                <input type="range" class="form-range" id="nose-slider" name="nose-slider" min="0" max="14" value = "0"><br>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-4">
                 <label for="ears-slider" class="form-label">Ears shape</label>
-            <input type="range" class="form-range" id="ears-slider" name="ears-slider" min="0" max="10" value = "0"><br>
+            <input type="range" class="form-range" id="ears-slider" name="ears-slider" min="0" max="14" value = "0"><br>
             </div>
             <div class="col-sm-4">
                 <label for="lips-slider" class="form-label">Lips shape</label>
-            <input type="range" class="form-range" id="lips-slider" name="lips-slider" min="0" max="11" value = "0"><br>
+            <input type="range" class="form-range" id="lips-slider" name="lips-slider" min="0" max="14" value = "0"><br>
             </div>
 
             <div class="col-sm-4">
                 <label for="FacialHair-slider" class="form-label">Facial Hair</label>
-            <input type="range" class="form-range" id="FacialHair-slider" name="FacialHair-slider" min="0" max="6" value = "0"><br>
+            <input type="range" class="form-range" id="FacialHair-slider" name="FacialHair-slider" min="0" max="11" value = "0"><br>
             </div>
 
           </div>
